@@ -45,6 +45,25 @@ Curly    medium or tall    skinny
 Moe      tall              corpulent    
 */
 
+// or you may provide some options
+example.print(/*padding*/3, /*print headers in bold*/true, /*max column width*/9);
+
+//will print this:
+/*
+__Name__  __Height__  __Girth__
+Larry  short      skinny
+Curly  medium or  skinny
+       tall
+Moe    tall       corpulent
+*/
+
+```
+
+## Tests
+
+Run unit-tests using jasmine-node:
+```
+jasmine-node tests
 ```
 
 ## Licence
