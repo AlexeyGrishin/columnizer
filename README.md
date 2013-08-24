@@ -46,11 +46,11 @@ Moe      tall              corpulent
 */
 
 // or you may provide some options
-example.print(/*padding*/3, /*print headers in bold*/true, /*max column width*/9);
+example.print(/*padding*/3, /*print headers in bold*/false, /*max column width*/9);
 
 //will print this:
 /*
-__Name__  __Height__  __Girth__
+Name   Height     Girth
 Larry  short      skinny
 Curly  medium or  skinny
        tall
