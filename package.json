@@ -7,9 +7,6 @@
         "underscore": "",
         "colors": ""
     },
-    "devDependencies": {
-      "jasmine-node": ""
-    },
     "repository": {
         "type": "git",
         "url": "https://github.com/HenrikJoreteg/columnize.git"

@@ -1,4 +1,5 @@
-var Columnizer = require('./columnizer');
+var Columnizer = require('./columnizer')
+  , assert = require('assert');
 
 
 var stooges = [
@@ -29,3 +30,17 @@ console.log();
 var example2 = new Columnizer(stooges);
 
 example2.print(10, true, 7);
+console.log();
+
+// also you may get formatted string with toString method and use it as you wish
+
+var example3 = new Columnizer();
+example3.row("one ring", "to rule them all", "one", "ring to find them");
+assert.equal(
+    example3.toString(3, null, 4),
+    "one   to    one  ring\n" +
+    "ring  rule       to\n" +
+    "      them       find\n" +
+    "      all        them"
+
+);
