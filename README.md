@@ -59,13 +59,6 @@ Moe    tall       corpulent
 
 ```
 
-## Tests
-
-Run unit-tests using jasmine-node:
-```
-jasmine-node tests
-```
-
 ## Licence
 
 MIT
